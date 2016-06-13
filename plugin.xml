@@ -4,11 +4,11 @@
         id="com.eclipsesource.tabris.maps"
         version="1.2.0">
 
-    <name>Tabris Maps Widget</name>
+    <name>Homoola Maps Widget</name>
 
-    <description>A custom map widget for Tabris based on Google Maps.</description>
+    <description>test on Google Maps.</description>
 
-    <author>EclipseSource</author>
+    <author>Homoola</author>
 
     <!-- cordova -->
     <engines>
@@ -30,12 +30,12 @@
              TODO
         </info>
 
-        <preference name="API_KEY_FOR_ANDROID" />
+        <preference name="AIzaSyCMnjm42aX7xGIY2yx_EnQhwxV771MYqg0" />
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data
               android:name="com.google.android.maps.v2.API_KEY"
-              android:value="$API_KEY_FOR_ANDROID" />
+              android:value="AIzaSyCMnjm42aX7xGIY2yx_EnQhwxV771MYqg0" />
             <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
             <meta-data
               android:name="com.eclipsesource.tabris.android.OPERATOR.com.eclipsesource.tabris.maps"
